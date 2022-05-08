@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body    {
+    background-color: rgb(224, 228, 228);
+    color: rgb(26, 25, 25);
+    font: normal 14px 'Inter', sans-serif;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgb(26, 25, 25);
+}
+.ukr{
+    display: flex;
+}
+.ukr img{
+    width: 30px; 
+    height: 28px;
+}
+.telega:hover,
+.linkedin:hover {
+    opacity: 0.6;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(66, 65, 65);
+    padding-bottom: 20px;
+}
+.info-text{
+    margin-left: 40px;
+}
+.info-text1{
+margin-top: -20px;
+font-style: italic;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    font-size: 16px;
+}
+.skills{
+    flex: 50%;
+}
+
+.card{
+    background-color: rgb(244, 252, 242);
+    box-shadow: 1px 1px 3px rgb(26, 25, 25);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.contact-form{
+    display: flex;
+}
+.contact-list{
+    flex: 50%;
+}
+ul {
+    list-style: none;
+    color: rgb(88, 87, 87);
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: rgb(27, 148, 20);
+  }
+li {
+    padding-left: 10px;
+   }
+
+.experience{
+    width: 100%;
+}
+.experience td{
+    padding-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea{
+font-family: inherit;
+box-sizing: border-box;
+}
+
+p {
+color: rgb(3, 67, 12);
+}
+.experience{
+    color: rgb(88, 87, 87);
+}
+.contact-bl{
+    text-align: center;
+}
+.skills li { padding-bottom: 10px;}
